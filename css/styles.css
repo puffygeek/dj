@@ -524,5 +524,5 @@ img::-moz-selection {
 
 .img-responsive {
     object-fit: cover;
-    height: 620px;
+    height: 600px;
 }
