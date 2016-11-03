@@ -314,9 +314,9 @@ footer {
         max-width: 80%;
         font-size: 18px;
     }
-    
+
     section {
-        min-height: 600px;
+        min-height: 200px;
     }
 
 }
