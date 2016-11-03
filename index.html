@@ -2,16 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Landing Zero Free Bootstrap Theme with Video</title>
-    <meta name="description" content="This is a free Bootstrap landing page theme created for BootstrapZero. Feature video background and one page design." />
+    <title>אדיר אופק DJ | מוזיקה לאירועים</title>
+    <meta name="description" content="שירותי מוזיקה לאירועים - חתונה, בר מצווה, ברית, מסיבה ועוד. שירות אמין וזול לכל צורך" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Codeply">
+    
+    <meta property="og:url"                content="https://www.adirofek.com" />
+    <meta property="og:title"              content="DJ אדיר אופק - מוזיקה לאירועים" />
+    <meta property="og:description"        content="שירותי מוזיקה לאירועים - חתונה, בר מצווה, ברית, מסיבה ועוד. שירות אמין וזול לכל צורך" />
+    <meta property="og:image"              content="https://raw.githubusercontent.com/puffygeek/dj/gh-pages/images/dj8.jpg" />
+    
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+  <div id="fb-root"></div>
     <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -43,7 +49,7 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" data-toggle="modal" href="//www.facebook.com/adir.ofek" target="_blank" title="פייסבוק"><i class="icon ion-social-facebook"></i></a>
+                        <a class="page-scroll" data-toggle="modal" href="//www.facebook.com/adir.ofek" target="_blank" title="פייסבוק"><i class="icon ion-social-facebook"></i></a> <div class="fb-like" data-href="https://www.adirofek.com" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                     </li>
                 </ul>
             </div>
@@ -62,7 +68,7 @@
             <source src="videos/splash.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
     </header>
-    <section class="bg-primary" id="one" style="min-height:100px;">
+    <section class="bg-primary" id="about" style="min-height:100px;">
         <div class="container">
             <div class="row" style="direction:rtl;">
                 <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
@@ -429,5 +435,14 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1039939049387404";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
   </body>
 </html>
