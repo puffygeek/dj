@@ -284,7 +284,7 @@ footer {
     .icon-lg {
         font-size: 80px;
     }
-    
+
     header {
         min-height: 100%;
     }
@@ -520,9 +520,4 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
-}
-
-.img-responsive {
-    object-fit: cover;
-    height: 600px;
 }
